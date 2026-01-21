@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Repowering Partners</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: #0f172a;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    /* ================= NAV BAR ================= */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background:  #0f172a; /* dark blue background */
+      display: flex;
+      align-items: center;
+      padding: 6px 32px;   /* slimmer navbar */
+      gap: 28px;
+    }
+
+    nav img.nav-logo {
+      margin-top: -14px;
+      margin-bottom: -14px;
+    }
+
+    .nav-left {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .nav-logo {
+      height: 100px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    .nav-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      white-space: nowrap;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 26px;
+    }
+
+    nav ul li a {
+      color: #e5e7eb;
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #38bdf8;
+    }
+
+    /* ================= HERO ================= */
+    header {
+      height: 100vh;
+      background: linear-gradient(
+        rgba(0,0,0,0.55),
+        rgba(0,0,0,0.55)
+      ),
+      url("https://images.unsplash.com/photo-1509391366360-2e959784a276") center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    .hero-content {
+      max-width: 900px;
+      margin-top: 80px;
+    }
+
+    .hero-content h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .hero-content p {
+      font-size: 1.2rem;
+      color: #e5e7eb;
+    }
+
+    /* ================= SECTIONS ================= */
+    section {
+      padding: 90px 60px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    section h2 {
+      font-size: 2.2rem;
+      margin-bottom: 30px;
+      border-left: 5px solid #38bdf8;
+      padding-left: 15px;
+    }
+
+    section p {
+      font-size: 1.05rem;
+      color: #d1d5db;
+      max-width: 900px;
+    }
+
+    /* ================= FOOTER ================= */
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #020617;
+      font-size: 0.9rem;
+      color: #9ca3af;
+    }
+
+    /* ================= RESPONSIVE ================= */
+    @media (max-width: 900px) {
+      nav ul {
+        display: none;
+      }
+
+      .hero-content h1 {
+        font-size: 2.3rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="nav-left">
+      <img 
+        src="./images/ChatGPT Image Jan 21, 2026, 02_05_28 PM.png"
+        alt="Repowering Partners Logo"
+        class="nav-logo"
+        onclick="window.scrollTo({ top: 0, behavior: 'smooth' });"
+      >
+      <span class="nav-title">Repowering Partners</span>
+    </div>
+
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#investment">Investment Focus</a></li>
+      <li><a href="#approach">Our Approach</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <header>
+    <div class="hero-content">
+      <h1>Revitalizing Underperforming Solar Assets</h1>
+      <p>
+        Repowering Partners acquires, optimizes, and extends the life of existing
+        solar facilities through disciplined investment and operational excellence.
+      </p>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+        Repowering Partners is dedicated to acquiring and revitalizing underperforming solar assets across the United States. We focus on identifying commercial and utility-scale projects that have operational, financial, or structural inefficiencies, and we apply proven strategies to unlock their full potential. Our mission is to create value for both investors and communities by transforming existing solar facilities into high-performing, long-term energy solutions.
+
+Our team combines deep expertise in renewable energy operations, finance, and asset management. We conduct detailed assessments to optimize performance, extend asset life, and ensure that each project meets rigorous standards of efficiency and sustainability. By taking a hands-on approach, we are able to deliver consistent results while minimizing risk, ensuring that each investment contributes to a more reliable and sustainable energy future.
+    </p>
+  </section>
+
+  <!-- INVESTMENT -->
+  <section id="investment">
+    <h2>Investment Focus</h2>
+    <p>
+      Repowering Partners specializes in acquiring commercial and utility-scale solar projects that are underperforming or face operational, financial, or structural challenges. We look for opportunities where active ownership and strategic improvements can unlock significant value. By carefully analyzing each project, we identify inefficiencies and develop tailored plans to enhance performance and maximize returns.
+
+Our approach combines technical expertise, operational excellence, and disciplined capital deployment. We implement upgrades, optimize energy production, and extend asset lifespans, ensuring that each project achieves its full potential. This hands-on management strategy allows us to stabilize cash flows and deliver consistent results for our investors while maintaining high standards of environmental and operational responsibility.
+    </p>
+  </section>
+
+  <!-- APPROACH -->
+  <section id="approach">
+    <h2>Our Approach</h2>
+    <p>
+ At Repowering Partners, we take a hands-on and data-driven approach to revitalizing solar assets. Every project begins with a comprehensive assessment to identify operational inefficiencies and areas for improvement. From technical optimization to strategic upgrades, we tailor solutions that maximize energy production and extend the life of each facility.
+
+We combine operational expertise with disciplined capital deployment, ensuring that improvements are both effective and financially sound. Our team works closely with local partners, engineers, and stakeholders to implement solutions that improve performance while maintaining safety, compliance, and sustainability standards.
+
+Through this proactive approach, we transform underperforming solar assets into high-performing, reliable energy facilities. By focusing on both operational efficiency and long-term asset value, we deliver measurable results for investors while supporting the transition to clean, renewable energy.
+    </p>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>
+      Interested in selling or partnering on an existing solar asset?<br>
+      Email us at <strong>info@repoweringpartners.com</strong>
+    </p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 Repowering Partners. All rights reserved.
+  </footer>
+
+</body>
+</html>
